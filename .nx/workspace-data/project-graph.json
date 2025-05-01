@@ -7240,6 +7240,15 @@
         "hash": "10c0/285325677bf00e30845e330eec32894f5105529db97496ee3f598478e50f008c5352a41a30e5e72ec9de8a542b5a570b85699cd63bd2bc646dbcb9f311d83bc4"
       }
     },
+    "npm:env-var": {
+      "type": "npm",
+      "name": "npm:env-var",
+      "data": {
+        "version": "7.5.0",
+        "packageName": "env-var",
+        "hash": "10c0/7eb93446417b2a1caaec213ffa1a28686a23d18f9364c9c007c113bedabf4632f8890a95b23022f3ac59351807f8ed27fce3ea68f85462406d7d19b2f6c75e88"
+      }
+    },
     "npm:err-code": {
       "type": "npm",
       "name": "npm:err-code",
@@ -7861,18 +7870,18 @@
         "hash": "10c0/74a513c2af0584448aee71ce56005185f81239eab7a2343110e5bad50c39ad4fb19c5a6f99783ead1cac7ccaf3461a6034fda89fffa2b30b6d99b9f21c2f9d29"
       }
     },
-    "npm:fast-xml-parser@4.4.1": {
+    "npm:fast-xml-parser": {
       "type": "npm",
-      "name": "npm:fast-xml-parser@4.4.1",
+      "name": "npm:fast-xml-parser",
       "data": {
         "version": "4.4.1",
         "packageName": "fast-xml-parser",
         "hash": "10c0/7f334841fe41bfb0bf5d920904ccad09cefc4b5e61eaf4c225bf1e1bb69ee77ef2147d8942f783ee8249e154d1ca8a858e10bda78a5d78b8bed3f48dcee9bf33"
       }
     },
-    "npm:fast-xml-parser": {
+    "npm:fast-xml-parser@4.5.3": {
       "type": "npm",
-      "name": "npm:fast-xml-parser",
+      "name": "npm:fast-xml-parser@4.5.3",
       "data": {
         "version": "4.5.3",
         "packageName": "fast-xml-parser",
@@ -14079,6 +14088,16 @@
     "stock": [
       {
         "source": "stock",
+        "target": "npm:env-var",
+        "type": "static"
+      },
+      {
+        "source": "stock",
+        "target": "npm:@aws-sdk/client-s3",
+        "type": "static"
+      },
+      {
+        "source": "stock",
         "target": "npm:vitest",
         "type": "static"
       }
@@ -16276,7 +16295,7 @@
       },
       {
         "source": "npm:@aws-sdk/core",
-        "target": "npm:fast-xml-parser@4.4.1",
+        "target": "npm:fast-xml-parser",
         "type": "static"
       },
       {
@@ -26635,16 +26654,16 @@
         "type": "static"
       }
     ],
-    "npm:fast-xml-parser@4.4.1": [
+    "npm:fast-xml-parser": [
       {
-        "source": "npm:fast-xml-parser@4.4.1",
+        "source": "npm:fast-xml-parser",
         "target": "npm:strnum",
         "type": "static"
       }
     ],
-    "npm:fast-xml-parser": [
+    "npm:fast-xml-parser@4.5.3": [
       {
-        "source": "npm:fast-xml-parser",
+        "source": "npm:fast-xml-parser@4.5.3",
         "target": "npm:strnum",
         "type": "static"
       }
@@ -30598,7 +30617,7 @@
       },
       {
         "source": "npm:openapi-sampler",
-        "target": "npm:fast-xml-parser",
+        "target": "npm:fast-xml-parser@4.5.3",
         "type": "static"
       },
       {
@@ -34469,5 +34488,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1746069340577
+  "computedAt": 1746074864146
 }

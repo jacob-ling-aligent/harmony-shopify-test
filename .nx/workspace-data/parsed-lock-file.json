@@ -6696,6 +6696,15 @@
         "hash": "10c0/285325677bf00e30845e330eec32894f5105529db97496ee3f598478e50f008c5352a41a30e5e72ec9de8a542b5a570b85699cd63bd2bc646dbcb9f311d83bc4"
       }
     },
+    "npm:env-var": {
+      "type": "npm",
+      "name": "npm:env-var",
+      "data": {
+        "version": "7.5.0",
+        "packageName": "env-var",
+        "hash": "10c0/7eb93446417b2a1caaec213ffa1a28686a23d18f9364c9c007c113bedabf4632f8890a95b23022f3ac59351807f8ed27fce3ea68f85462406d7d19b2f6c75e88"
+      }
+    },
     "npm:err-code": {
       "type": "npm",
       "name": "npm:err-code",
@@ -7317,18 +7326,18 @@
         "hash": "10c0/74a513c2af0584448aee71ce56005185f81239eab7a2343110e5bad50c39ad4fb19c5a6f99783ead1cac7ccaf3461a6034fda89fffa2b30b6d99b9f21c2f9d29"
       }
     },
-    "npm:fast-xml-parser@4.4.1": {
+    "npm:fast-xml-parser": {
       "type": "npm",
-      "name": "npm:fast-xml-parser@4.4.1",
+      "name": "npm:fast-xml-parser",
       "data": {
         "version": "4.4.1",
         "packageName": "fast-xml-parser",
         "hash": "10c0/7f334841fe41bfb0bf5d920904ccad09cefc4b5e61eaf4c225bf1e1bb69ee77ef2147d8942f783ee8249e154d1ca8a858e10bda78a5d78b8bed3f48dcee9bf33"
       }
     },
-    "npm:fast-xml-parser": {
+    "npm:fast-xml-parser@4.5.3": {
       "type": "npm",
-      "name": "npm:fast-xml-parser",
+      "name": "npm:fast-xml-parser@4.5.3",
       "data": {
         "version": "4.5.3",
         "packageName": "fast-xml-parser",
@@ -15254,6 +15263,286 @@
       "type": "static"
     },
     {
+      "source": "npm:@aws-sdk/client-s3",
+      "target": "npm:@aws-crypto/sha1-browser",
+      "type": "static"
+    },
+    {
+      "source": "npm:@aws-sdk/client-s3",
+      "target": "npm:@aws-crypto/sha256-browser",
+      "type": "static"
+    },
+    {
+      "source": "npm:@aws-sdk/client-s3",
+      "target": "npm:@aws-crypto/sha256-js",
+      "type": "static"
+    },
+    {
+      "source": "npm:@aws-sdk/client-s3",
+      "target": "npm:@aws-sdk/core",
+      "type": "static"
+    },
+    {
+      "source": "npm:@aws-sdk/client-s3",
+      "target": "npm:@aws-sdk/credential-provider-node",
+      "type": "static"
+    },
+    {
+      "source": "npm:@aws-sdk/client-s3",
+      "target": "npm:@aws-sdk/middleware-bucket-endpoint",
+      "type": "static"
+    },
+    {
+      "source": "npm:@aws-sdk/client-s3",
+      "target": "npm:@aws-sdk/middleware-expect-continue",
+      "type": "static"
+    },
+    {
+      "source": "npm:@aws-sdk/client-s3",
+      "target": "npm:@aws-sdk/middleware-flexible-checksums",
+      "type": "static"
+    },
+    {
+      "source": "npm:@aws-sdk/client-s3",
+      "target": "npm:@aws-sdk/middleware-host-header",
+      "type": "static"
+    },
+    {
+      "source": "npm:@aws-sdk/client-s3",
+      "target": "npm:@aws-sdk/middleware-location-constraint",
+      "type": "static"
+    },
+    {
+      "source": "npm:@aws-sdk/client-s3",
+      "target": "npm:@aws-sdk/middleware-logger",
+      "type": "static"
+    },
+    {
+      "source": "npm:@aws-sdk/client-s3",
+      "target": "npm:@aws-sdk/middleware-recursion-detection",
+      "type": "static"
+    },
+    {
+      "source": "npm:@aws-sdk/client-s3",
+      "target": "npm:@aws-sdk/middleware-sdk-s3",
+      "type": "static"
+    },
+    {
+      "source": "npm:@aws-sdk/client-s3",
+      "target": "npm:@aws-sdk/middleware-ssec",
+      "type": "static"
+    },
+    {
+      "source": "npm:@aws-sdk/client-s3",
+      "target": "npm:@aws-sdk/middleware-user-agent",
+      "type": "static"
+    },
+    {
+      "source": "npm:@aws-sdk/client-s3",
+      "target": "npm:@aws-sdk/region-config-resolver",
+      "type": "static"
+    },
+    {
+      "source": "npm:@aws-sdk/client-s3",
+      "target": "npm:@aws-sdk/signature-v4-multi-region",
+      "type": "static"
+    },
+    {
+      "source": "npm:@aws-sdk/client-s3",
+      "target": "npm:@aws-sdk/types",
+      "type": "static"
+    },
+    {
+      "source": "npm:@aws-sdk/client-s3",
+      "target": "npm:@aws-sdk/util-endpoints",
+      "type": "static"
+    },
+    {
+      "source": "npm:@aws-sdk/client-s3",
+      "target": "npm:@aws-sdk/util-user-agent-browser",
+      "type": "static"
+    },
+    {
+      "source": "npm:@aws-sdk/client-s3",
+      "target": "npm:@aws-sdk/util-user-agent-node",
+      "type": "static"
+    },
+    {
+      "source": "npm:@aws-sdk/client-s3",
+      "target": "npm:@aws-sdk/xml-builder",
+      "type": "static"
+    },
+    {
+      "source": "npm:@aws-sdk/client-s3",
+      "target": "npm:@smithy/config-resolver",
+      "type": "static"
+    },
+    {
+      "source": "npm:@aws-sdk/client-s3",
+      "target": "npm:@smithy/core",
+      "type": "static"
+    },
+    {
+      "source": "npm:@aws-sdk/client-s3",
+      "target": "npm:@smithy/eventstream-serde-browser",
+      "type": "static"
+    },
+    {
+      "source": "npm:@aws-sdk/client-s3",
+      "target": "npm:@smithy/eventstream-serde-config-resolver",
+      "type": "static"
+    },
+    {
+      "source": "npm:@aws-sdk/client-s3",
+      "target": "npm:@smithy/eventstream-serde-node",
+      "type": "static"
+    },
+    {
+      "source": "npm:@aws-sdk/client-s3",
+      "target": "npm:@smithy/fetch-http-handler",
+      "type": "static"
+    },
+    {
+      "source": "npm:@aws-sdk/client-s3",
+      "target": "npm:@smithy/hash-blob-browser",
+      "type": "static"
+    },
+    {
+      "source": "npm:@aws-sdk/client-s3",
+      "target": "npm:@smithy/hash-node",
+      "type": "static"
+    },
+    {
+      "source": "npm:@aws-sdk/client-s3",
+      "target": "npm:@smithy/hash-stream-node",
+      "type": "static"
+    },
+    {
+      "source": "npm:@aws-sdk/client-s3",
+      "target": "npm:@smithy/invalid-dependency",
+      "type": "static"
+    },
+    {
+      "source": "npm:@aws-sdk/client-s3",
+      "target": "npm:@smithy/md5-js",
+      "type": "static"
+    },
+    {
+      "source": "npm:@aws-sdk/client-s3",
+      "target": "npm:@smithy/middleware-content-length",
+      "type": "static"
+    },
+    {
+      "source": "npm:@aws-sdk/client-s3",
+      "target": "npm:@smithy/middleware-endpoint",
+      "type": "static"
+    },
+    {
+      "source": "npm:@aws-sdk/client-s3",
+      "target": "npm:@smithy/middleware-retry",
+      "type": "static"
+    },
+    {
+      "source": "npm:@aws-sdk/client-s3",
+      "target": "npm:@smithy/middleware-serde",
+      "type": "static"
+    },
+    {
+      "source": "npm:@aws-sdk/client-s3",
+      "target": "npm:@smithy/middleware-stack",
+      "type": "static"
+    },
+    {
+      "source": "npm:@aws-sdk/client-s3",
+      "target": "npm:@smithy/node-config-provider",
+      "type": "static"
+    },
+    {
+      "source": "npm:@aws-sdk/client-s3",
+      "target": "npm:@smithy/node-http-handler",
+      "type": "static"
+    },
+    {
+      "source": "npm:@aws-sdk/client-s3",
+      "target": "npm:@smithy/protocol-http",
+      "type": "static"
+    },
+    {
+      "source": "npm:@aws-sdk/client-s3",
+      "target": "npm:@smithy/smithy-client",
+      "type": "static"
+    },
+    {
+      "source": "npm:@aws-sdk/client-s3",
+      "target": "npm:@smithy/types",
+      "type": "static"
+    },
+    {
+      "source": "npm:@aws-sdk/client-s3",
+      "target": "npm:@smithy/url-parser",
+      "type": "static"
+    },
+    {
+      "source": "npm:@aws-sdk/client-s3",
+      "target": "npm:@smithy/util-base64",
+      "type": "static"
+    },
+    {
+      "source": "npm:@aws-sdk/client-s3",
+      "target": "npm:@smithy/util-body-length-browser",
+      "type": "static"
+    },
+    {
+      "source": "npm:@aws-sdk/client-s3",
+      "target": "npm:@smithy/util-body-length-node",
+      "type": "static"
+    },
+    {
+      "source": "npm:@aws-sdk/client-s3",
+      "target": "npm:@smithy/util-defaults-mode-browser",
+      "type": "static"
+    },
+    {
+      "source": "npm:@aws-sdk/client-s3",
+      "target": "npm:@smithy/util-defaults-mode-node",
+      "type": "static"
+    },
+    {
+      "source": "npm:@aws-sdk/client-s3",
+      "target": "npm:@smithy/util-endpoints",
+      "type": "static"
+    },
+    {
+      "source": "npm:@aws-sdk/client-s3",
+      "target": "npm:@smithy/util-middleware",
+      "type": "static"
+    },
+    {
+      "source": "npm:@aws-sdk/client-s3",
+      "target": "npm:@smithy/util-retry",
+      "type": "static"
+    },
+    {
+      "source": "npm:@aws-sdk/client-s3",
+      "target": "npm:@smithy/util-stream",
+      "type": "static"
+    },
+    {
+      "source": "npm:@aws-sdk/client-s3",
+      "target": "npm:@smithy/util-utf8",
+      "type": "static"
+    },
+    {
+      "source": "npm:@aws-sdk/client-s3",
+      "target": "npm:@smithy/util-waiter",
+      "type": "static"
+    },
+    {
+      "source": "npm:@aws-sdk/client-s3",
+      "target": "npm:tslib",
+      "type": "static"
+    },
+    {
       "source": "npm:@aws-sdk/client-sso",
       "target": "npm:@aws-crypto/sha256-browser",
       "type": "static"
@@ -15685,7 +15974,7 @@
     },
     {
       "source": "npm:@aws-sdk/core",
-      "target": "npm:fast-xml-parser@4.4.1",
+      "target": "npm:fast-xml-parser",
       "type": "static"
     },
     {
@@ -28549,12 +28838,12 @@
       "type": "static"
     },
     {
-      "source": "npm:fast-xml-parser@4.4.1",
+      "source": "npm:fast-xml-parser",
       "target": "npm:strnum",
       "type": "static"
     },
     {
-      "source": "npm:fast-xml-parser",
+      "source": "npm:fast-xml-parser@4.5.3",
       "target": "npm:strnum",
       "type": "static"
     },
@@ -33245,7 +33534,7 @@
     },
     {
       "source": "npm:openapi-sampler",
-      "target": "npm:fast-xml-parser",
+      "target": "npm:fast-xml-parser@4.5.3",
       "type": "static"
     },
     {
@@ -33260,7 +33549,7 @@
     },
     {
       "source": "npm:openapi-sampler",
-      "target": "npm:fast-xml-parser",
+      "target": "npm:fast-xml-parser@4.5.3",
       "type": "static"
     },
     {

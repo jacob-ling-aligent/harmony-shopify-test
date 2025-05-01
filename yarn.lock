@@ -2970,6 +2970,7 @@ __metadata:
     "@vitest/ui": "npm:^2.0.0"
     dotenv: "npm:^16.3.1"
     enquirer: "npm:^2.4.1"
+    env-var: "npm:^7.5.0"
     esbuild: "npm:~0.19.2"
     eslint: "npm:^9.13.0"
     eslint-config-prettier: "npm:9.1.0"
@@ -2985,6 +2986,7 @@ __metadata:
     vite: "npm:5.4.8"
     vite-tsconfig-paths: "npm:~4.3.2"
     vitest: "npm:^2.0.0"
+    xml2js: "npm:^0.6.2"
   languageName: unknown
   linkType: soft
 
@@ -8148,6 +8150,13 @@ __metadata:
   version: 2.2.1
   resolution: "env-paths@npm:2.2.1"
   checksum: 10c0/285325677bf00e30845e330eec32894f5105529db97496ee3f598478e50f008c5352a41a30e5e72ec9de8a542b5a570b85699cd63bd2bc646dbcb9f311d83bc4
+  languageName: node
+  linkType: hard
+
+"env-var@npm:^7.5.0":
+  version: 7.5.0
+  resolution: "env-var@npm:7.5.0"
+  checksum: 10c0/7eb93446417b2a1caaec213ffa1a28686a23d18f9364c9c007c113bedabf4632f8890a95b23022f3ac59351807f8ed27fce3ea68f85462406d7d19b2f6c75e88
   languageName: node
   linkType: hard
 
@@ -16013,7 +16022,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"xml2js@npm:0.6.2":
+"xml2js@npm:0.6.2, xml2js@npm:^0.6.2":
   version: 0.6.2
   resolution: "xml2js@npm:0.6.2"
   dependencies:

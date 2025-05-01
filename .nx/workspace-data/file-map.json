@@ -22,12 +22,16 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "bitbucket-pipelines.yml",
-        "hash": "11044932425912687627"
+        "file": "package.json",
+        "hash": "1144528247856281138"
       },
       {
-        "file": "README.md",
-        "hash": "16334751650070921515"
+        "file": ".yarn/install-state.gz",
+        "hash": "5137181975805967975"
+      },
+      {
+        "file": "bitbucket-pipelines.yml",
+        "hash": "11044932425912687627"
       },
       {
         "file": "services/.gitkeep",
@@ -38,56 +42,52 @@
         "hash": "7663861978715868291"
       },
       {
-        "file": "tsconfig.base.json",
-        "hash": "15452245079928694613"
+        "file": "prettier.config.js",
+        "hash": "4047309726022494290"
       },
       {
-        "file": "nx.json",
-        "hash": "4569938363683733732"
+        "file": ".yarnrc.yml",
+        "hash": "9773565372686775399"
       },
       {
-        "file": "tools/tsconfig.tools.json",
-        "hash": "113529236189617652"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "589753587222351342"
-      },
-      {
-        "file": "libs/.gitkeep",
-        "hash": "3244421341483603138"
-      },
-      {
-        "file": ".yarn/install-state.gz",
-        "hash": "9442318730536655187"
-      },
-      {
-        "file": "yarn.lock",
-        "hash": "7332044138038577602"
-      },
-      {
-        "file": "LICENSE",
-        "hash": "16845842677755717760"
-      },
-      {
-        "file": "eslint.config.js",
-        "hash": "2803714136144737651"
+        "file": "README.md",
+        "hash": "16334751650070921515"
       },
       {
         "file": "vite.config.base.mjs",
         "hash": "8856917544530748781"
       },
       {
-        "file": "prettier.config.js",
-        "hash": "4047309726022494290"
+        "file": "tools/tsconfig.tools.json",
+        "hash": "113529236189617652"
       },
       {
-        "file": "package.json",
-        "hash": "15702382076949391206"
+        "file": "eslint.config.js",
+        "hash": "2803714136144737651"
       },
       {
-        "file": ".yarnrc.yml",
-        "hash": "9773565372686775399"
+        "file": "libs/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "nx.json",
+        "hash": "4569938363683733732"
+      },
+      {
+        "file": "LICENSE",
+        "hash": "16845842677755717760"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "15452245079928694613"
+      },
+      {
+        "file": "yarn.lock",
+        "hash": "10576039263659561409"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "589753587222351342"
       }
     ],
     "projectFileMap": {
@@ -362,6 +362,26 @@
       ],
       "stock": [
         {
+          "file": "services/stock/.serverless/cloudformation-template-create-stack.json",
+          "hash": "14253469811130423286"
+        },
+        {
+          "file": "services/stock/.serverless/cloudformation-template-update-stack.json",
+          "hash": "2914588245041538979"
+        },
+        {
+          "file": "services/stock/.serverless/getProductUpdates.zip",
+          "hash": "17256417968755180245"
+        },
+        {
+          "file": "services/stock/.serverless/serverless-state.json",
+          "hash": "5161628500129458373"
+        },
+        {
+          "file": "services/stock/.serverless/world.zip",
+          "hash": "5435323404552245054"
+        },
+        {
           "file": "services/stock/README.md",
           "hash": "16691907533014124869"
         },
@@ -383,11 +403,21 @@
         },
         {
           "file": "services/stock/serverless.yml",
-          "hash": "10666068002916941927"
+          "hash": "9978299078786594569"
+        },
+        {
+          "file": "services/stock/src/env/aws.ts",
+          "hash": "8781346696501041011",
+          "deps": [
+            "npm:env-var"
+          ]
         },
         {
           "file": "services/stock/src/lambda/get-product-updates.ts",
-          "hash": "7772424370528182511"
+          "hash": "16574127575180150985",
+          "deps": [
+            "npm:@aws-sdk/client-s3"
+          ]
         },
         {
           "file": "services/stock/src/lambda/world.ts",

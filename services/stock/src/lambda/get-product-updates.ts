@@ -1,18 +1,9 @@
 /* v8 ignore start */
-import { responseXml } from '../../tests/__data__/example-data';
-import {
-  PutObjectCommand,
-  S3Client,
-  S3ServiceException,
-} from '@aws-sdk/client-s3';
-
-// You can deconstruct modules to import a specific type
-// AWSLambda.Handler provides generic typing
-// for handler functions. Specific argument and output
-// types can be supplied using generic arguments
-// e.g. AWSLambda.Handler<string, object>, or you can use
-// event-specific handler types e.g. AWSLambda.S3Handler
+import { PutObjectCommand, S3Client } from '@aws-sdk/client-s3';
 import type { Handler } from 'aws-lambda/handler';
+import { parseString } from 'xml2js';
+import { responseXml } from '../../tests/__data__/example-data';
+import { S3_BUCKET_NAME } from '../env/aws';
 
 export const handler: Handler = async (event, context) => {
   console.log(`Getting product updates...`);
@@ -20,15 +11,18 @@ export const handler: Handler = async (event, context) => {
   // they are sent as JSON strings
   console.log('Lambda event: ', JSON.stringify(event));
   console.log('Lambda context: ', JSON.stringify(context));
-  const key = await upload(JSON.stringify(responseXml));
+  const key = await upload(
+    S3_BUCKET_NAME,
+    JSON.parse(parseString(JSON.stringify(responseXml)))
+  );
   return {
-    status: 'Success',
+    success: true,
     statusCode: 200,
     s3Key: key,
   };
 };
 
-async function upload(bucket: string, blob: unknown): Promise<string> {
+async function upload(bucket: string, blob: string): Promise<string> {
   const key = `updates-${crypto.randomUUID()}`;
   const client = new S3Client({});
   const command = new PutObjectCommand({

@@ -1,0 +1,11 @@
+[2m> [22msls deploy -s dev
+
+[90mEnvironment: linux, node 20.18.3, framework 3.40.0 (local), plugin 7.2.3, SDK 4.5.1[39m
+[90mDocs:        docs.serverless.com[39m
+[90mSupport:     forum.serverless.com[39m
+[90mBugs:        github.com/serverless/serverless/issues[39m
+
+[91mError:[39m
+Configuration error at 'provider.iam.role.statements': must be array
+
+Learn more about configuration validation here: http://slss.io/configuration-validation

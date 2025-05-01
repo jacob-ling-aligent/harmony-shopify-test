@@ -32,39 +32,48 @@ provider:
   environment:
     NODE_OPTIONS: --enable-source-maps
   iam:
-    Effect: Allow
-    Action:
-      - s3:*
-    Resource: 'arn:aws:s3:::${self:service}-${self:provider.stage}-bucket/*'
+    role:
+      statements:
+        - Effect: Allow
+          Action:
+            - s3:*
+          Resource: 'arn:aws:s3:::${self:service}-${self:provider.stage}-bucket/*'
 
 functions:
   getProductUpdates:
     handler: src/lambda/get-product-updates.handler
-  world:
-    handler: src/lambda/world.handler
+    environment:
+      s3BucketName: '${self:service}-${self:provider.stage}-bucket'
+  getSkus:
+    handler: src/lambda/get-skus.handler
+    environment:
+      s3BucketName: '${self:service}-${self:provider.stage}-bucket'
 
 stepFunctions:
   validate: true
   stateMachines:
-    helloWorld:
-      name: ${self:service}-${self:provider.stage}-helloWorld
+    deltaStockSync:
+      name: ${self:service}-${self:provider.stage}-deltaStockSync
       tracingConfig:
         enabled: true
+      events:
+        - schedule:
+          name: 15-min-stock-delta
+          description: 'The event to make the delta stock sync run every 15 minutes'
+          rate: rate(15 minutes)
+          enabled: true
       definition:
-        StartAt: Hello
+        StartAt: getProductUpdates
         States:
-          Hello:
+          getProductUpdates:
             Type: Task
             Resource:
-              Fn::GetAtt: [hello, Arn]
-            Next: World
-          World:
+              Fn::GetAtt: [getProductUpdates, Arn]
+            Next: getSkus
+          getSkus:
             Type: Task
             Resource:
-              Fn::GetAtt: [world, Arn]
-            Next: Passthru
-          Passthru:
-            Type: Pass
+              Fn::GetAtt: [getSkus, Arn]
             Next: Stop
           Stop:
             Type: Pass

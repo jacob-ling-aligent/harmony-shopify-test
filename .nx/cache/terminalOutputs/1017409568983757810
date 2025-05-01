@@ -1,0 +1,18 @@
+[2m> [22msls deploy -s dev
+
+
+Deploying hstest-int-stock to stage dev [90m(ap-southeast-2)[39m
+[?25l
+[91m⠋[39m Packaging [90m(0s)[39m
+[2K[1A[1G[2K[1A[1G[?25h[91m✔[39m [32mConventions check complete! No errors were found.[39m
+✓ State machine "helloWorld" definition is valid
+
+[91m✖[39m [91mStack hstest-int-stock-dev failed to deploy [90m(29s)[39m[91m[39m
+[90mEnvironment: linux, node 20.18.3, framework 3.40.0 (local), plugin 7.2.3, SDK 4.5.1[39m
+[90mCredentials: Local, "default" profile[39m
+[90mDocs:        docs.serverless.com[39m
+[90mSupport:     forum.serverless.com[39m
+[90mBugs:        github.com/serverless/serverless/issues[39m
+
+[91mError:[39m
+The CloudFormation template is invalid: Template error: instance of Fn::GetAtt references undefined resource hello

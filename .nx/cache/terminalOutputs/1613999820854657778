@@ -1,0 +1,14 @@
+[2m> [22msls deploy -s dev
+
+
+Deploying hstest-int-stock to stage dev [90m(ap-southeast-2)[39m
+[?25l
+[91m⠋[39m Packaging [90m(0s)[39m
+[2K[1A[1G[2K[1A[1G[?25h[91m✔[39m [32mConventions check complete! No errors were found.[39m
+✓ State machine "deltaStockSync" definition is valid
+
+[91m✔[39m Service deployed to stack hstest-int-stock-dev [90m(78s)[39m
+
+[90mfunctions:[39m
+[90m[39m  getProductUpdates: hstest-int-stock-dev-getProductUpdates[90m (556 kB)[39m
+  world: hstest-int-stock-dev-world[90m (920 B)[39m
