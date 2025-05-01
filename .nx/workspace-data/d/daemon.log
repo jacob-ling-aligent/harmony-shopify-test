@@ -1,0 +1,444 @@
+[NX Daemon Server] - 2025-05-01T01:42:54.131Z - Started listening on: /tmp/0c63c77d366240de8e21/d.sock
+[NX Daemon Server] - 2025-05-01T01:42:54.132Z - [WATCHER]: Subscribed to changes within: /home/jacob.ling/aligent-internal/harmony-shopify-test (native)
+[NX Daemon Server] - 2025-05-01T01:42:54.139Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-05-01T01:42:54.139Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2025-05-01T01:42:54.140Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-05-01T01:42:54.141Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX Daemon Server] - 2025-05-01T01:42:54.141Z - Done responding to the client Shutdown initiated
+[NX Daemon Server] - 2025-05-01T01:42:54.141Z - Handled FORCE_SHUTDOWN. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2025-05-01T01:42:54.143Z - [WATCHER]: Stopping the watcher for /home/jacob.ling/aligent-internal/harmony-shopify-test (sources)
+[NX Daemon Server] - 2025-05-01T01:42:54.143Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2025-05-01T01:42:54.143Z - [WATCHER]: Stopping the watcher for /home/jacob.ling/aligent-internal/harmony-shopify-test (outputs)
+[NX Daemon Server] - 2025-05-01T01:42:54.143Z - Server stopped because: "Request to shutdown"
+[NX Daemon Server] - 2025-05-01T01:45:00.901Z - Started listening on: /tmp/0c63c77d366240de8e21/d.sock
+[NX Daemon Server] - 2025-05-01T01:45:00.903Z - [WATCHER]: Subscribed to changes within: /home/jacob.ling/aligent-internal/harmony-shopify-test (native)
+[NX Daemon Server] - 2025-05-01T01:45:00.904Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-05-01T01:45:00.904Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2025-05-01T01:45:00.905Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-05-01T01:45:00.906Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX Daemon Server] - 2025-05-01T01:45:00.907Z - Done responding to the client Shutdown initiated
+[NX Daemon Server] - 2025-05-01T01:45:00.907Z - Handled FORCE_SHUTDOWN. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2025-05-01T01:45:00.907Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2025-05-01T01:45:00.907Z - [WATCHER]: Stopping the watcher for /home/jacob.ling/aligent-internal/harmony-shopify-test (sources)
+[NX Daemon Server] - 2025-05-01T01:45:00.907Z - [WATCHER]: Stopping the watcher for /home/jacob.ling/aligent-internal/harmony-shopify-test (outputs)
+[NX Daemon Server] - 2025-05-01T01:45:00.907Z - Server stopped because: "Request to shutdown"
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:48:34.143Z - Started listening on: /tmp/0c63c77d366240de8e21/d.sock
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:48:34.144Z - [WATCHER]: Subscribed to changes within: /home/jacob.ling/aligent-internal/harmony-shopify-test (native)
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:48:34.145Z - Established a connection. Number of open connections: 1
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:48:34.145Z - Established a connection. Number of open connections: 2
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:48:34.146Z - Closed a connection. Number of open connections: 1
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:48:34.147Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:48:34.147Z - Done responding to the client Shutdown initiated
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:48:34.147Z - Handled FORCE_SHUTDOWN. Handling time: 0. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:48:34.149Z - [WATCHER]: Stopping the watcher for /home/jacob.ling/aligent-internal/harmony-shopify-test (sources)
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:48:34.149Z - Closed a connection. Number of open connections: 0
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:48:34.149Z - [WATCHER]: Stopping the watcher for /home/jacob.ling/aligent-internal/harmony-shopify-test (outputs)
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:48:34.149Z - Server stopped because: "Request to shutdown"
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:50:50.946Z - Started listening on: /tmp/0c63c77d366240de8e21/d.sock
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:50:50.950Z - [WATCHER]: Subscribed to changes within: /home/jacob.ling/aligent-internal/harmony-shopify-test (native)
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:50:50.953Z - Established a connection. Number of open connections: 1
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:50:50.954Z - Established a connection. Number of open connections: 2
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:50:50.957Z - Closed a connection. Number of open connections: 1
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:50:50.959Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:50:50.960Z - Done responding to the client Shutdown initiated
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:50:50.960Z - Handled FORCE_SHUTDOWN. Handling time: 0. Response time: 1.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:50:50.961Z - Closed a connection. Number of open connections: 0
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:50:50.961Z - [WATCHER]: Stopping the watcher for /home/jacob.ling/aligent-internal/harmony-shopify-test (sources)
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:50:50.961Z - [WATCHER]: Stopping the watcher for /home/jacob.ling/aligent-internal/harmony-shopify-test (outputs)
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:50:50.962Z - Server stopped because: "Request to shutdown"
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:30.731Z - Started listening on: /tmp/0c63c77d366240de8e21/d.sock
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:30.733Z - [WATCHER]: Subscribed to changes within: /home/jacob.ling/aligent-internal/harmony-shopify-test (native)
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:30.736Z - Established a connection. Number of open connections: 1
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:30.736Z - Established a connection. Number of open connections: 2
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:30.737Z - Closed a connection. Number of open connections: 1
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:30.738Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:30.739Z - Done responding to the client Shutdown initiated
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:30.739Z - Handled FORCE_SHUTDOWN. Handling time: 0. Response time: 1.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:30.739Z - Closed a connection. Number of open connections: 0
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:30.739Z - [WATCHER]: Stopping the watcher for /home/jacob.ling/aligent-internal/harmony-shopify-test (sources)
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:30.739Z - [WATCHER]: Stopping the watcher for /home/jacob.ling/aligent-internal/harmony-shopify-test (outputs)
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:30.739Z - Server stopped because: "Request to shutdown"
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:43.233Z - Started listening on: /tmp/0c63c77d366240de8e21/d.sock
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:43.235Z - [WATCHER]: Subscribed to changes within: /home/jacob.ling/aligent-internal/harmony-shopify-test (native)
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:43.237Z - Established a connection. Number of open connections: 1
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:43.238Z - Closed a connection. Number of open connections: 0
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:43.239Z - Established a connection. Number of open connections: 1
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:43.240Z - [REQUEST]: Client Request for Project Graph Received
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:43.378Z - Time taken for 'Load Nx Plugin: /home/jacob.ling/aligent-internal/harmony-shopify-test/node_modules/nx/src/plugins/project-json/build-nodes/project-json' 136.04485800000003ms
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:43.421Z - Time taken for 'Load Nx Plugin: /home/jacob.ling/aligent-internal/harmony-shopify-test/node_modules/nx/src/plugins/js' 179.73192ms
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:43.447Z - Time taken for 'loadDefaultNxPlugins' 206.02626699999996ms
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:43.628Z - Time taken for 'Load Nx Plugin: @nx/eslint/plugin' 387.76956699999994ms
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:43.892Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:43.892Z - [REQUEST]: 
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:43.892Z - [REQUEST]: 
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:43.901Z - Time taken for 'loadSpecifiedNxPlugins' 651.185848ms
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:43.902Z - Established a connection. Number of open connections: 2
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:43.902Z - Established a connection. Number of open connections: 3
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:43.903Z - Closed a connection. Number of open connections: 2
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:43.904Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:43.904Z - Done responding to the client handleGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:43.904Z - Handled GLOB. Handling time: 0. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:43.909Z - Established a connection. Number of open connections: 3
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:43.909Z - Closed a connection. Number of open connections: 2
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:43.910Z - Established a connection. Number of open connections: 3
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:43.911Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:43.911Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:43.911Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:43.912Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:43.913Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:43.913Z - Handled HASH_GLOB. Handling time: 0. Response time: 1.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:43.984Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:43.984Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:43.984Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:43.985Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:43.986Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:43.986Z - Handled HASH_GLOB. Handling time: 0. Response time: 1.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:43.988Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:43.988Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:43.988Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:44.059Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:44.060Z - [WATCHER]: 0 file(s) created or restored, 0 file(s) modified, 2 file(s) deleted
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:44.160Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:44.160Z - [REQUEST]: 
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:44.160Z - [REQUEST]: tools/serverless-plugin/vite.config.mjs.timestamp-1746064304007-4e0941cec168a.mjs,tools/openapi-plugin/vite.config.mjs.timestamp-1746064304007-5aa0c706041f1.mjs
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:44.164Z - Time taken for 'hash changed files from watcher' 0.12058000000001812ms
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:44.168Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:44.168Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:44.168Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:44.169Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:44.169Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:44.169Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:44.231Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:44.232Z - [WATCHER]: 0 file(s) created or restored, 0 file(s) modified, 2 file(s) deleted
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:44.433Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:44.433Z - [REQUEST]: 
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:44.433Z - [REQUEST]: tools/serverless-plugin/vite.config.mjs.timestamp-1746064304007-4e0941cec168a.mjs,tools/openapi-plugin/vite.config.mjs.timestamp-1746064304007-5aa0c706041f1.mjs,tools/serverless-plugin/vite.config.mjs.timestamp-1746064304180-7fc746c134e87.mjs,tools/openapi-plugin/vite.config.mjs.timestamp-1746064304180-51547c8bfbe.mjs
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:44.437Z - Time taken for 'hash changed files from watcher' 0.26954700000010234ms
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:44.439Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:44.440Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:44.440Z - Handled HASH_GLOB. Handling time: 0. Response time: 1.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:44.441Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:44.441Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:44.441Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:44.499Z - [WATCHER]: 0 file(s) created or restored, 0 file(s) modified, 2 file(s) deleted
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:44.499Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:44.899Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:44.900Z - [REQUEST]: 
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:44.900Z - [REQUEST]: tools/serverless-plugin/vite.config.mjs.timestamp-1746064304007-4e0941cec168a.mjs,tools/openapi-plugin/vite.config.mjs.timestamp-1746064304007-5aa0c706041f1.mjs,tools/serverless-plugin/vite.config.mjs.timestamp-1746064304180-7fc746c134e87.mjs,tools/openapi-plugin/vite.config.mjs.timestamp-1746064304180-51547c8bfbe.mjs,tools/openapi-plugin/vite.config.mjs.timestamp-1746064304446-4482c6d423d79.mjs,tools/serverless-plugin/vite.config.mjs.timestamp-1746064304447-a174733463dd2.mjs
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:44.904Z - Time taken for 'hash changed files from watcher' 0.27380799999991723ms
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:44.908Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:44.908Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:44.908Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:44.910Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:44.910Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:44.910Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:44.970Z - Time taken for 'build-project-configs' 49.66074000000003ms
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:44.972Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:44.972Z - Done responding to the client handleGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:44.972Z - Handled GLOB. Handling time: 0. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:44.973Z - [WATCHER]: 0 file(s) created or restored, 0 file(s) modified, 2 file(s) deleted
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:44.973Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:44.975Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:44.975Z - Done responding to the client handleGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:44.975Z - Handled GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:44.976Z - Time taken for '@nx/vite/plugin:createDependencies' 11.189502000000175ms
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:44.977Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:44.977Z - Done responding to the client handleGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:44.977Z - Handled GLOB. Handling time: 0. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:44.979Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:44.979Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:44.979Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:44.980Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:44.980Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:44.980Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:44.981Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:44.981Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:44.981Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:44.982Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:44.982Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:44.982Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:44.989Z - Time taken for 'build-project-configs' 81.47741399999995ms
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:44.990Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:44.991Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:44.991Z - Handled HASH_GLOB. Handling time: 0. Response time: 1.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:45.015Z - [SYNC]: collect registered sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:45.015Z - [REQUEST]: Responding to the client. project-graph
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:45.018Z - Time taken for 'total for creating and serializing project graph' 1775.528395ms
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:45.019Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:45.019Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:45.019Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:45.021Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:45.021Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:45.021Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:45.021Z - Done responding to the client project-graph
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:45.021Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1775. Response time: 6.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:45.027Z - Time taken for 'build-project-configs' 120.28333100000009ms
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:45.029Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:45.029Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:45.029Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:45.039Z - [SYNC]: collect registered sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:45.039Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:45.039Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:45.039Z - Time taken for 'total execution time for createProjectGraph()' 11.286245000000008ms
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:45.040Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:45.040Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:45.040Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:45.041Z - Time taken for '@nx/vite/plugin:createDependencies' 15.913375000000087ms
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:45.046Z - Time taken for 'build-project-configs' 140.639009ms
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:45.049Z - Time taken for '@nx/vite/plugin:createDependencies' 5.65422999999987ms
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:45.065Z - [SYNC]: collect registered sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:45.065Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:45.065Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:45.065Z - Time taken for 'total execution time for createProjectGraph()' 15.839647999999897ms
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:45.082Z - [SYNC]: collect registered sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:45.082Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:45.082Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:45.082Z - Time taken for 'total execution time for createProjectGraph()' 30.99044600000002ms
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:45.774Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:45.774Z - [REQUEST]: 
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:45.774Z - [REQUEST]: 
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:45.778Z - Time taken for 'hash changed files from watcher' 0.11984899999970366ms
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:45.779Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:45.779Z - Done responding to the client handleGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:45.779Z - Handled GLOB. Handling time: 0. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:45.781Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:45.781Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:45.781Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:45.781Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:45.782Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:45.782Z - Handled HASH_GLOB. Handling time: 0. Response time: 1.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:45.783Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:45.783Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:45.783Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:45.784Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:45.784Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:45.784Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:45.786Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:45.786Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:45.786Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:45.803Z - Time taken for 'build-project-configs' 23.180958999999802ms
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:45.808Z - Time taken for '@nx/vite/plugin:createDependencies' 7.831292999999732ms
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:45.820Z - [SYNC]: collect registered sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:45.820Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:45.820Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:45.820Z - Time taken for 'total execution time for createProjectGraph()' 14.613127000000077ms
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:45.840Z - [WATCHER]: 0 file(s) created or restored, 0 file(s) modified, 2 file(s) deleted
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:45.840Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:46.964Z - Closed a connection. Number of open connections: 2
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.000Z - [WATCHER]: 12 file(s) created or restored, 1 file(s) modified, 0 file(s) deleted
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.000Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.441Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.441Z - [REQUEST]: services/stock/tsconfig.json,services/stock/tests/__data__/example-data.ts,services/stock/vite.config.mjs,services/stock/src/lambda/world.ts,services/stock/serverless.yml,services/stock/eslint.config.js,services/stock/README.md,services/stock/package.json,services/stock/tests/example-tests.test.ts,services/stock/project.json,services/stock/docs/sample-context-diagram.png,services/stock/src/lambda/hello.ts,tsconfig.base.json
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.441Z - [REQUEST]: tools/openapi-plugin/vite.config.mjs.timestamp-1746064305788-d9f9978d99533.mjs,tools/serverless-plugin/vite.config.mjs.timestamp-1746064305791-649b9e5f03ba2.mjs
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.448Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.448Z - Done responding to the client handleGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.448Z - Handled GLOB. Handling time: 0. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.448Z - Time taken for 'hash changed files from watcher' 0.5568480000001728ms
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.449Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.449Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.449Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.451Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.451Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.451Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.452Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.452Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.452Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.453Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.453Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.453Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.454Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.454Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.454Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.455Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.455Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.455Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.456Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.456Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.456Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.510Z - [WATCHER]: 0 file(s) created or restored, 0 file(s) modified, 3 file(s) deleted
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.510Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.529Z - Time taken for 'build-project-configs' 78.76079300000038ms
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.531Z - Time taken for '@nx/vite/plugin:createDependencies' 5.296276000000034ms
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.709Z - [SYNC]: collect registered sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.709Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.709Z - Time taken for 'total execution time for createProjectGraph()' 179.81179200000042ms
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.711Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.711Z - [REQUEST]: 
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.711Z - [REQUEST]: 
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.716Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.716Z - Done responding to the client handleGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.716Z - Handled GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.716Z - Time taken for 'hash changed files from watcher' 0.06997800000044663ms
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.717Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.717Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.717Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.718Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.718Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.718Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.719Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.719Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.719Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.720Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.720Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.720Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.721Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.721Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.721Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.723Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.723Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.723Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.724Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.724Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.724Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.738Z - Time taken for 'build-project-configs' 22.294340000000375ms
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.741Z - Time taken for '@nx/vite/plugin:createDependencies' 5.636089000000538ms
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.754Z - [SYNC]: collect registered sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.754Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.754Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.754Z - Time taken for 'total execution time for createProjectGraph()' 14.31769499999973ms
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.778Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:47.779Z - [WATCHER]: 0 file(s) created or restored, 0 file(s) modified, 3 file(s) deleted
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:48.179Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:48.179Z - [REQUEST]: 
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:48.179Z - [REQUEST]: tools/serverless-plugin/vite.config.mjs.timestamp-1746064307730-083eb322f2704.mjs,tools/openapi-plugin/vite.config.mjs.timestamp-1746064307730-4901fccac2967.mjs,services/stock/vite.config.mjs.timestamp-1746064307727-245e12e42d30b.mjs
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:48.184Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:48.184Z - Done responding to the client handleGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:48.184Z - Handled GLOB. Handling time: 0. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:48.185Z - Time taken for 'hash changed files from watcher' 0.2237569999997504ms
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:48.186Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:48.186Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:48.186Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:48.186Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:48.186Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:48.186Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:48.187Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:48.187Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:48.187Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:48.188Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:48.188Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:48.188Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:48.189Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:48.189Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:48.189Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:48.190Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:48.190Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:48.190Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:48.192Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:48.192Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:48.192Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:48.205Z - Time taken for 'build-project-configs' 20.643995999999788ms
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:48.207Z - Time taken for '@nx/vite/plugin:createDependencies' 4.527180999999473ms
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:48.229Z - [SYNC]: collect registered sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:48.230Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:48.230Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:48.230Z - Time taken for 'total execution time for createProjectGraph()' 17.699185000000398ms
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:48.246Z - [WATCHER]: 0 file(s) created or restored, 0 file(s) modified, 3 file(s) deleted
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:48.246Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:49.046Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:49.046Z - [REQUEST]: 
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:49.046Z - [REQUEST]: services/stock/vite.config.mjs.timestamp-1746064308194-0acd7a97e42be.mjs,tools/openapi-plugin/vite.config.mjs.timestamp-1746064308194-68a37856dfbfd.mjs,tools/serverless-plugin/vite.config.mjs.timestamp-1746064308199-9ecc6df944bc2.mjs
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:49.053Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:49.053Z - Done responding to the client handleGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:49.053Z - Handled GLOB. Handling time: 0. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:49.054Z - Time taken for 'hash changed files from watcher' 0.1382160000002841ms
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:49.055Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:49.055Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:49.055Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:49.056Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:49.056Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:49.056Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:49.056Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:49.056Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:49.056Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:49.057Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:49.057Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:49.057Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:49.058Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:49.058Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:49.058Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:49.059Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:49.059Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:49.059Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:49.060Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:49.060Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:49.060Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:49.079Z - Time taken for 'build-project-configs' 25.34384499999942ms
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:49.081Z - Time taken for '@nx/vite/plugin:createDependencies' 5.922472000000198ms
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:49.100Z - [SYNC]: collect registered sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:49.100Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:49.100Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:49.101Z - Time taken for 'total execution time for createProjectGraph()' 15.18125499999951ms
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:49.115Z - [WATCHER]: 0 file(s) created or restored, 0 file(s) modified, 3 file(s) deleted
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:49.115Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:50.715Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:50.716Z - [REQUEST]: 
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:50.716Z - [REQUEST]: services/stock/vite.config.mjs.timestamp-1746064309064-78f78d1d31c74.mjs,tools/openapi-plugin/vite.config.mjs.timestamp-1746064309068-eff526139d6be.mjs,tools/serverless-plugin/vite.config.mjs.timestamp-1746064309071-03457f288f3f3.mjs
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:50.723Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:50.723Z - Done responding to the client handleGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:50.723Z - Handled GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:50.723Z - Time taken for 'hash changed files from watcher' 0.22906300000067858ms
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:50.725Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:50.725Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:50.725Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:50.726Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:50.726Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:50.726Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:50.727Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:50.727Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:50.727Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:50.728Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:50.728Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:50.728Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:50.731Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:50.731Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:50.731Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:50.732Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:50.732Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:50.732Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:50.734Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:50.734Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:50.734Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:50.748Z - Time taken for 'build-project-configs' 25.89809400000013ms
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:50.750Z - Time taken for '@nx/vite/plugin:createDependencies' 4.214723000000049ms
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:50.763Z - [SYNC]: collect registered sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:50.763Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:50.763Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:50.763Z - Time taken for 'total execution time for createProjectGraph()' 12.939916999999696ms
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:50.783Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:50.784Z - [WATCHER]: 0 file(s) created or restored, 0 file(s) modified, 3 file(s) deleted
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:53.985Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:53.985Z - [REQUEST]: 
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:53.985Z - [REQUEST]: tools/serverless-plugin/vite.config.mjs.timestamp-1746064310742-eb5d6883f9dd1.mjs,services/stock/vite.config.mjs.timestamp-1746064310731-e11cb21b593af.mjs,tools/openapi-plugin/vite.config.mjs.timestamp-1746064310736-4bbd6153c9bae.mjs
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:53.992Z - [REQUEST]: Responding to the client. handleGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:53.992Z - Done responding to the client handleGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:53.992Z - Handled GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:53.992Z - Time taken for 'hash changed files from watcher' 0.23958300000049348ms
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:53.994Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:53.994Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:53.994Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:53.995Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:53.995Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:53.995Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:53.996Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:53.996Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:53.996Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:53.997Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:53.997Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:53.998Z - Handled HASH_GLOB. Handling time: 0. Response time: 1.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:54.000Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:54.000Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:54.000Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:54.001Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:54.001Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:54.001Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:54.003Z - [REQUEST]: Responding to the client. handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:54.003Z - Done responding to the client handleHashGlob
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:54.003Z - Handled HASH_GLOB. Handling time: 1. Response time: 0.
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:54.020Z - Time taken for 'build-project-configs' 28.522641999999905ms
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:54.024Z - Time taken for '@nx/vite/plugin:createDependencies' 7.365965999999389ms
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:54.046Z - [SYNC]: collect registered sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:54.046Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:54.046Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:54.046Z - Time taken for 'total execution time for createProjectGraph()' 22.381921000000148ms
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:54.059Z - [WATCHER]: Processing file changes in outputs
+[NX v20.8.1 Daemon Server] - 2025-05-01T01:51:54.059Z - [WATCHER]: 0 file(s) created or restored, 0 file(s) modified, 3 file(s) deleted

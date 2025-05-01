@@ -1,0 +1,1060 @@
+{
+  "tools/openapi-plugin": {
+    "root": [
+      "tools/openapi-plugin/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.options": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.outputs": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.executor": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.cwd": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.command": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies.0": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.description": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.command": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.example": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.typecheck": [
+      "tools/openapi-plugin/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.cache": [
+      "tools/openapi-plugin/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.inputs": [
+      "tools/openapi-plugin/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.options": [
+      "tools/openapi-plugin/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata": [
+      "tools/openapi-plugin/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.executor": [
+      "tools/openapi-plugin/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.options.cwd": [
+      "tools/openapi-plugin/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.options.command": [
+      "tools/openapi-plugin/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.description": [
+      "tools/openapi-plugin/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.technologies": [
+      "tools/openapi-plugin/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.technologies.0": [
+      "tools/openapi-plugin/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.help": [
+      "tools/openapi-plugin/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.help.command": [
+      "tools/openapi-plugin/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.help.example": [
+      "tools/openapi-plugin/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.test": [
+      "tools/openapi-plugin/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.options": [
+      "tools/openapi-plugin/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.outputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.metadata": [
+      "tools/openapi-plugin/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.executor": [
+      "tools/openapi-plugin/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.options.cwd": [
+      "tools/openapi-plugin/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.options.command": [
+      "tools/openapi-plugin/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.metadata.technologies": [
+      "tools/openapi-plugin/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.metadata.technologies.0": [
+      "tools/openapi-plugin/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.metadata.description": [
+      "tools/openapi-plugin/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.metadata.help": [
+      "tools/openapi-plugin/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.metadata.help.command": [
+      "tools/openapi-plugin/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.metadata.help.example": [
+      "tools/openapi-plugin/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.build-deps": [
+      "tools/openapi-plugin/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.build-deps.dependsOn": [
+      "tools/openapi-plugin/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps": [
+      "tools/openapi-plugin/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps.dependsOn": [
+      "tools/openapi-plugin/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps.executor": [
+      "tools/openapi-plugin/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps.options": [
+      "tools/openapi-plugin/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps.options.command": [
+      "tools/openapi-plugin/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "name": [
+      "tools/openapi-plugin/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "tools/openapi-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "tools/openapi-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "tools/openapi-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "tools/openapi-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "tools/openapi-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "tools/openapi-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish": [
+      "tools/openapi-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.executor": [
+      "tools/openapi-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.dependsOn": [
+      "tools/openapi-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.options": [
+      "tools/openapi-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "tools/openapi-plugin/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "tools/openapi-plugin/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "tools/openapi-plugin/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.client": [
+      "tools/openapi-plugin/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "tools/openapi-plugin/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "tools/openapi-plugin/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "tools/openapi-plugin/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "tools/openapi-plugin/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.outputPath": [
+      "tools/openapi-plugin/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.main": [
+      "tools/openapi-plugin/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.tsConfig": [
+      "tools/openapi-plugin/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.assets": [
+      "tools/openapi-plugin/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.generatePackageJson": [
+      "tools/openapi-plugin/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "services/stock": {
+    "root": [
+      "services/stock/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "services/stock/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint": [
+      "services/stock/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.options": [
+      "services/stock/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.outputs": [
+      "services/stock/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata": [
+      "services/stock/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.executor": [
+      "services/stock/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.cwd": [
+      "services/stock/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.command": [
+      "services/stock/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies": [
+      "services/stock/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies.0": [
+      "services/stock/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.description": [
+      "services/stock/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help": [
+      "services/stock/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.command": [
+      "services/stock/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.example": [
+      "services/stock/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.typecheck": [
+      "services/stock/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.cache": [
+      "services/stock/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.inputs": [
+      "services/stock/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.options": [
+      "services/stock/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata": [
+      "services/stock/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.executor": [
+      "services/stock/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.options.cwd": [
+      "services/stock/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.options.command": [
+      "services/stock/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.description": [
+      "services/stock/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.technologies": [
+      "services/stock/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.technologies.0": [
+      "services/stock/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.help": [
+      "services/stock/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.help.command": [
+      "services/stock/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.help.example": [
+      "services/stock/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.test": [
+      "services/stock/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.options": [
+      "services/stock/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.outputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.metadata": [
+      "services/stock/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.executor": [
+      "services/stock/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.options.cwd": [
+      "services/stock/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.options.command": [
+      "services/stock/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.metadata.technologies": [
+      "services/stock/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.metadata.technologies.0": [
+      "services/stock/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.metadata.description": [
+      "services/stock/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.metadata.help": [
+      "services/stock/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.metadata.help.command": [
+      "services/stock/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.metadata.help.example": [
+      "services/stock/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.build-deps": [
+      "services/stock/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.build-deps.dependsOn": [
+      "services/stock/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps": [
+      "services/stock/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps.dependsOn": [
+      "services/stock/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps.executor": [
+      "services/stock/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps.options": [
+      "services/stock/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps.options.command": [
+      "services/stock/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "name": [
+      "services/stock/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "services/stock/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "services/stock/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "services/stock/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "services/stock/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "services/stock/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "services/stock/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "services/stock/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish": [
+      "services/stock/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.executor": [
+      "services/stock/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.dependsOn": [
+      "services/stock/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.options": [
+      "services/stock/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "services/stock/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "services/stock/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.service": [
+      "services/stock/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.general": [
+      "services/stock/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.stock": [
+      "services/stock/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "services/stock/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "services/stock/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "services/stock/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.cwd": [
+      "services/stock/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.color": [
+      "services/stock/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.command": [
+      "services/stock/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.deploy": [
+      "services/stock/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.deploy.executor": [
+      "services/stock/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.deploy.options": [
+      "services/stock/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.deploy.options.cwd": [
+      "services/stock/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.deploy.options.color": [
+      "services/stock/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.deploy.options.command": [
+      "services/stock/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.remove": [
+      "services/stock/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.remove.executor": [
+      "services/stock/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.remove.options": [
+      "services/stock/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.remove.options.cwd": [
+      "services/stock/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.remove.options.color": [
+      "services/stock/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.remove.options.command": [
+      "services/stock/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.outputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "tools/serverless-plugin": {
+    "root": [
+      "tools/serverless-plugin/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "tools/serverless-plugin/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint": [
+      "tools/serverless-plugin/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.options": [
+      "tools/serverless-plugin/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.outputs": [
+      "tools/serverless-plugin/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata": [
+      "tools/serverless-plugin/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.executor": [
+      "tools/serverless-plugin/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.cwd": [
+      "tools/serverless-plugin/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.command": [
+      "tools/serverless-plugin/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies": [
+      "tools/serverless-plugin/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies.0": [
+      "tools/serverless-plugin/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.description": [
+      "tools/serverless-plugin/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help": [
+      "tools/serverless-plugin/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.command": [
+      "tools/serverless-plugin/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.example": [
+      "tools/serverless-plugin/eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.typecheck": [
+      "tools/serverless-plugin/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.cache": [
+      "tools/serverless-plugin/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.inputs": [
+      "tools/serverless-plugin/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.options": [
+      "tools/serverless-plugin/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata": [
+      "tools/serverless-plugin/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.executor": [
+      "tools/serverless-plugin/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.options.cwd": [
+      "tools/serverless-plugin/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.options.command": [
+      "tools/serverless-plugin/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.description": [
+      "tools/serverless-plugin/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.technologies": [
+      "tools/serverless-plugin/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.technologies.0": [
+      "tools/serverless-plugin/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.help": [
+      "tools/serverless-plugin/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.help.command": [
+      "tools/serverless-plugin/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.help.example": [
+      "tools/serverless-plugin/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.test": [
+      "tools/serverless-plugin/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.options": [
+      "tools/serverless-plugin/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.outputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.metadata": [
+      "tools/serverless-plugin/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.executor": [
+      "tools/serverless-plugin/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.options.cwd": [
+      "tools/serverless-plugin/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.options.command": [
+      "tools/serverless-plugin/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.metadata.technologies": [
+      "tools/serverless-plugin/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.metadata.technologies.0": [
+      "tools/serverless-plugin/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.metadata.description": [
+      "tools/serverless-plugin/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.metadata.help": [
+      "tools/serverless-plugin/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.metadata.help.command": [
+      "tools/serverless-plugin/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.test.metadata.help.example": [
+      "tools/serverless-plugin/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.build-deps": [
+      "tools/serverless-plugin/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.build-deps.dependsOn": [
+      "tools/serverless-plugin/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps": [
+      "tools/serverless-plugin/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps.dependsOn": [
+      "tools/serverless-plugin/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps.executor": [
+      "tools/serverless-plugin/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps.options": [
+      "tools/serverless-plugin/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps.options.command": [
+      "tools/serverless-plugin/vite.config.mjs",
+      "@nx/vite/plugin"
+    ],
+    "name": [
+      "tools/serverless-plugin/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "tools/serverless-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "tools/serverless-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "tools/serverless-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "tools/serverless-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "tools/serverless-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "tools/serverless-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish": [
+      "tools/serverless-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.executor": [
+      "tools/serverless-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.dependsOn": [
+      "tools/serverless-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.nx-release-publish.options": [
+      "tools/serverless-plugin/package.json",
+      "nx/core/package-json"
+    ],
+    "$schema": [
+      "tools/serverless-plugin/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "tools/serverless-plugin/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "tools/serverless-plugin/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.tools": [
+      "tools/serverless-plugin/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.serverless": [
+      "tools/serverless-plugin/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.plugin": [
+      "tools/serverless-plugin/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "tools/serverless-plugin/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "tools/serverless-plugin/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "tools/serverless-plugin/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "tools/serverless-plugin/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.outputPath": [
+      "tools/serverless-plugin/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.main": [
+      "tools/serverless-plugin/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.tsConfig": [
+      "tools/serverless-plugin/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.assets": [
+      "tools/serverless-plugin/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.generatePackageJson": [
+      "tools/serverless-plugin/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "extends": "@aligent/ts-code-standards/tsconfigs-base",
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "baseUrl": ".",
+    "exactOptionalPropertyTypes": false,
+    "noUncheckedSideEffectImports": true,
+    "paths": {
+      "@aligent/openapi-plugin": ["tools/openapi-plugin/src/index.ts"],
+      "@aligent/serverless-plugin": ["tools/serverless-plugin/src/index.ts"]
+    },
+    "types": ["node", "vitest", "vitest/globals"]
+  }
+}

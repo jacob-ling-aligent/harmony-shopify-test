@@ -1,0 +1,418 @@
+{
+  "version": "6.0",
+  "nxVersion": "20.8.1",
+  "pathMappings": {
+    "@aligent/openapi-plugin": [
+      "tools/openapi-plugin/src/index.ts"
+    ],
+    "@aligent/serverless-plugin": [
+      "tools/serverless-plugin/src/index.ts"
+    ]
+  },
+  "nxJsonPlugins": [
+    {
+      "name": "@nx/eslint/plugin",
+      "options": {}
+    },
+    {
+      "name": "@nx/vite/plugin",
+      "options": {}
+    }
+  ],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": "tsconfig.base.json",
+        "hash": "15452245079928694613"
+      },
+      {
+        "file": "prettier.config.js",
+        "hash": "4047309726022494290"
+      },
+      {
+        "file": "services/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "libs/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "tools/tsconfig.tools.json",
+        "hash": "113529236189617652"
+      },
+      {
+        "file": "vite.config.base.mjs",
+        "hash": "8856917544530748781"
+      },
+      {
+        "file": "nx.json",
+        "hash": "4569938363683733732"
+      },
+      {
+        "file": "eslint.config.js",
+        "hash": "2803714136144737651"
+      },
+      {
+        "file": "yarn.lock",
+        "hash": "7332044138038577602"
+      },
+      {
+        "file": "LICENSE",
+        "hash": "16845842677755717760"
+      },
+      {
+        "file": "bitbucket-pipelines.yml",
+        "hash": "11044932425912687627"
+      },
+      {
+        "file": ".yarn/install-state.gz",
+        "hash": "9442318730536655187"
+      },
+      {
+        "file": ".yarnrc.yml",
+        "hash": "9773565372686775399"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "589753587222351342"
+      },
+      {
+        "file": "README.md",
+        "hash": "16334751650070921515"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "7663861978715868291"
+      },
+      {
+        "file": "package.json",
+        "hash": "15702382076949391206"
+      }
+    ],
+    "projectFileMap": {
+      "@aligent/openapi-plugin": [
+        {
+          "file": "tools/openapi-plugin/README.md",
+          "hash": "1770825013157470576"
+        },
+        {
+          "file": "tools/openapi-plugin/generators.json",
+          "hash": "9905816210917939056"
+        },
+        {
+          "file": "tools/openapi-plugin/package.json",
+          "hash": "11756222726126900534",
+          "deps": [
+            "npm:openapi-typescript",
+            "npm:enquirer",
+            "npm:@nx/devkit",
+            "npm:@redocly/openapi-core",
+            "npm:vitest"
+          ]
+        },
+        {
+          "file": "tools/openapi-plugin/project.json",
+          "hash": "7576334977891992031"
+        },
+        {
+          "file": "tools/openapi-plugin/src/generators/client/files/README.md.template",
+          "hash": "12862312385770869840"
+        },
+        {
+          "file": "tools/openapi-plugin/src/generators/client/files/src/client.ts.template",
+          "hash": "18358544155275584887"
+        },
+        {
+          "file": "tools/openapi-plugin/src/generators/client/files/tsconfig.json.template",
+          "hash": "9251106095806911477"
+        },
+        {
+          "file": "tools/openapi-plugin/src/generators/client/generator.spec.ts",
+          "hash": "4003318460680323080",
+          "deps": [
+            "npm:@nx/devkit"
+          ]
+        },
+        {
+          "file": "tools/openapi-plugin/src/generators/client/generator.ts",
+          "hash": "7282682966017502775",
+          "deps": [
+            "npm:@nx/devkit",
+            "npm:enquirer"
+          ]
+        },
+        {
+          "file": "tools/openapi-plugin/src/generators/client/schema.d.ts",
+          "hash": "4688922163806334890"
+        },
+        {
+          "file": "tools/openapi-plugin/src/generators/client/schema.json",
+          "hash": "17998053553524846383"
+        },
+        {
+          "file": "tools/openapi-plugin/src/generators/client/unit-test-schemas/invalid.yaml",
+          "hash": "6879582948270355199"
+        },
+        {
+          "file": "tools/openapi-plugin/src/generators/client/unit-test-schemas/valid.yaml",
+          "hash": "4156088739386780851"
+        },
+        {
+          "file": "tools/openapi-plugin/src/helpers/generate-openapi-types.ts",
+          "hash": "12645609862940857793",
+          "deps": [
+            "npm:openapi-typescript",
+            "npm:@nx/devkit",
+            "npm:@redocly/openapi-core"
+          ]
+        },
+        {
+          "file": "tools/openapi-plugin/src/index.ts",
+          "hash": "1548451488446765132"
+        },
+        {
+          "file": "tools/openapi-plugin/tsconfig.json",
+          "hash": "10893278673535206923"
+        },
+        {
+          "file": "tools/openapi-plugin/tsconfig.lib.json",
+          "hash": "11920013569224838029"
+        },
+        {
+          "file": "tools/openapi-plugin/tsconfig.spec.json",
+          "hash": "8915219368211251855"
+        },
+        {
+          "file": "tools/openapi-plugin/vite.config.mjs",
+          "hash": "1846928403955274000",
+          "deps": [
+            "npm:vitest"
+          ]
+        }
+      ],
+      "@aligent/serverless-plugin": [
+        {
+          "file": "tools/serverless-plugin/README.md",
+          "hash": "12118270012605974034"
+        },
+        {
+          "file": "tools/serverless-plugin/eslint.config.js",
+          "hash": "1714834206005354654",
+          "deps": [
+            "npm:jsonc-eslint-parser@2.4.0"
+          ]
+        },
+        {
+          "file": "tools/serverless-plugin/generators.json",
+          "hash": "10872539588207959501"
+        },
+        {
+          "file": "tools/serverless-plugin/package.json",
+          "hash": "5256498366006468446",
+          "deps": [
+            "npm:@nx/devkit"
+          ]
+        },
+        {
+          "file": "tools/serverless-plugin/project.json",
+          "hash": "18138286976428522527"
+        },
+        {
+          "file": "tools/serverless-plugin/src/generators/service/general-files/README.md",
+          "hash": "4016331065377887278"
+        },
+        {
+          "file": "tools/serverless-plugin/src/generators/service/general-files/docs/sample-context-diagram.png",
+          "hash": "18051704580510878918"
+        },
+        {
+          "file": "tools/serverless-plugin/src/generators/service/general-files/eslint.config.js.template",
+          "hash": "17472210594086834595"
+        },
+        {
+          "file": "tools/serverless-plugin/src/generators/service/general-files/package.json.template",
+          "hash": "7623091175962920426"
+        },
+        {
+          "file": "tools/serverless-plugin/src/generators/service/general-files/serverless.yml.template",
+          "hash": "13880054790697999782"
+        },
+        {
+          "file": "tools/serverless-plugin/src/generators/service/general-files/src/lambda/hello.ts.template",
+          "hash": "12995733614832926102"
+        },
+        {
+          "file": "tools/serverless-plugin/src/generators/service/general-files/src/lambda/world.ts.template",
+          "hash": "3952893348058192564"
+        },
+        {
+          "file": "tools/serverless-plugin/src/generators/service/general-files/tests/__data__/example-data.ts.template",
+          "hash": "17515963276335789034"
+        },
+        {
+          "file": "tools/serverless-plugin/src/generators/service/general-files/tests/example-tests.test.ts.template",
+          "hash": "3709645766951150752"
+        },
+        {
+          "file": "tools/serverless-plugin/src/generators/service/general-files/tsconfig.json.template",
+          "hash": "8098244842581367123"
+        },
+        {
+          "file": "tools/serverless-plugin/src/generators/service/general-files/vite.config.mjs.template",
+          "hash": "4583413703230853136"
+        },
+        {
+          "file": "tools/serverless-plugin/src/generators/service/generator.spec.ts",
+          "hash": "4915048369296305482",
+          "deps": [
+            "npm:@nx/devkit"
+          ]
+        },
+        {
+          "file": "tools/serverless-plugin/src/generators/service/generator.ts",
+          "hash": "17496726747524401356",
+          "deps": [
+            "npm:@nx/devkit"
+          ]
+        },
+        {
+          "file": "tools/serverless-plugin/src/generators/service/notification-files/README.md",
+          "hash": "15085997928018276082"
+        },
+        {
+          "file": "tools/serverless-plugin/src/generators/service/notification-files/docs/architecture-diagram.mmd",
+          "hash": "16490498398641665921"
+        },
+        {
+          "file": "tools/serverless-plugin/src/generators/service/notification-files/docs/architecture-diagram.svg",
+          "hash": "15721829553243401663"
+        },
+        {
+          "file": "tools/serverless-plugin/src/generators/service/notification-files/eslint.config.js.template",
+          "hash": "17472210594086834595"
+        },
+        {
+          "file": "tools/serverless-plugin/src/generators/service/notification-files/package.json.template",
+          "hash": "16422157090325450092"
+        },
+        {
+          "file": "tools/serverless-plugin/src/generators/service/notification-files/serverless.yml.template",
+          "hash": "4990247753693214292"
+        },
+        {
+          "file": "tools/serverless-plugin/src/generators/service/notification-files/src/lambda/notify-error.ts.template",
+          "hash": "1730239811665078482"
+        },
+        {
+          "file": "tools/serverless-plugin/src/generators/service/notification-files/src/utils/aws-formatting.ts.template",
+          "hash": "6076934277595254086"
+        },
+        {
+          "file": "tools/serverless-plugin/src/generators/service/notification-files/src/utils/aws-sns.ts.template",
+          "hash": "13119660129097614261"
+        },
+        {
+          "file": "tools/serverless-plugin/src/generators/service/notification-files/tests/aws-formatting.test.ts.template",
+          "hash": "16287454558057869176"
+        },
+        {
+          "file": "tools/serverless-plugin/src/generators/service/notification-files/tsconfig.json.template",
+          "hash": "8098244842581367123"
+        },
+        {
+          "file": "tools/serverless-plugin/src/generators/service/notification-files/types/notify-error.ts.template",
+          "hash": "9783388821218943262"
+        },
+        {
+          "file": "tools/serverless-plugin/src/generators/service/notification-files/vite.config.mjs.template",
+          "hash": "11748097690019631123"
+        },
+        {
+          "file": "tools/serverless-plugin/src/generators/service/schema.d.ts",
+          "hash": "13396209362277683293"
+        },
+        {
+          "file": "tools/serverless-plugin/src/generators/service/schema.json",
+          "hash": "10043754613667035839"
+        },
+        {
+          "file": "tools/serverless-plugin/src/index.ts",
+          "hash": "4689503279142989743"
+        },
+        {
+          "file": "tools/serverless-plugin/tsconfig.json",
+          "hash": "4041483701269408600"
+        },
+        {
+          "file": "tools/serverless-plugin/tsconfig.lib.json",
+          "hash": "9664291122874790848"
+        },
+        {
+          "file": "tools/serverless-plugin/tsconfig.spec.json",
+          "hash": "6542390563318153688"
+        },
+        {
+          "file": "tools/serverless-plugin/vite.config.mjs",
+          "hash": "13960208260362552625",
+          "deps": [
+            "npm:vitest"
+          ]
+        }
+      ],
+      "stock": [
+        {
+          "file": "services/stock/README.md",
+          "hash": "16691907533014124869"
+        },
+        {
+          "file": "services/stock/docs/sample-context-diagram.png",
+          "hash": "18051704580510878918"
+        },
+        {
+          "file": "services/stock/eslint.config.js",
+          "hash": "17472210594086834595"
+        },
+        {
+          "file": "services/stock/package.json",
+          "hash": "13532605724475703152"
+        },
+        {
+          "file": "services/stock/project.json",
+          "hash": "15901516091691405133"
+        },
+        {
+          "file": "services/stock/serverless.yml",
+          "hash": "13722858216954805877"
+        },
+        {
+          "file": "services/stock/src/lambda/hello.ts",
+          "hash": "11780138270750027346"
+        },
+        {
+          "file": "services/stock/src/lambda/world.ts",
+          "hash": "2565632177038729010"
+        },
+        {
+          "file": "services/stock/tests/__data__/example-data.ts",
+          "hash": "13888088332265100558"
+        },
+        {
+          "file": "services/stock/tests/example-tests.test.ts",
+          "hash": "12246042918070816170"
+        },
+        {
+          "file": "services/stock/tsconfig.json",
+          "hash": "5328129286012489944"
+        },
+        {
+          "file": "services/stock/vite.config.mjs",
+          "hash": "9509477940659557281",
+          "deps": [
+            "npm:vitest"
+          ]
+        }
+      ]
+    }
+  }
+}

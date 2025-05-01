@@ -1,0 +1,33 @@
+{
+  "name": "stock",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "services/stock/src",
+  "targets": {
+    "build": {
+      "executor": "nx:run-commands",
+      "options": {
+        "cwd": "{projectRoot}",
+        "color": true,
+        "command": "sls package"
+      }
+    },
+    "deploy": {
+      "executor": "nx:run-commands",
+      "options": {
+        "cwd": "{projectRoot}",
+        "color": true,
+        "command": "sls deploy"
+      }
+    },
+    "remove": {
+      "executor": "nx:run-commands",
+      "options": {
+        "cwd": "{projectRoot}",
+        "color": true,
+        "command": "sls remove"
+      }
+    }
+  },
+  "tags": ["service", "general", "stock"]
+}

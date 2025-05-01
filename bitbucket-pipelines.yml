@@ -1,0 +1,78 @@
+image: node:20
+
+definitions:
+  services:
+    docker:
+      memory: 3072
+  caches:
+    corepack-cache: $HOME/.cache/node/corepack
+  steps:
+    - step: &install
+        name: ⚙️ Install
+        caches:
+          - corepack-cache
+        script:
+          - corepack enable yarn
+          - yarn install --immutable
+        artifacts:
+          - node_modules/**
+    - step: &lint
+        name: 🧹 Lint
+        caches:
+          - corepack-cache
+        script:
+          - corepack enable yarn
+          - yarn run lint
+          - yarn run check-types
+    - step: &test
+        name: 🧪 Test
+        caches:
+          - corepack-cache
+        script:
+          - corepack enable yarn
+          - yarn run test
+    - step: &push-serverless
+        name: 🚀 Deploy Service
+        script:
+          - pipe: docker://aligent/nx-serverless-deploy-pipe:20
+            variables:
+              AWS_ACCESS_KEY_ID: ${AWS_ACCESS_KEY_ID}
+              AWS_SECRET_ACCESS_KEY: ${AWS_SECRET_ACCESS_KEY}
+              CFN_ROLE: ${CFN_ROLE}
+              STAGE: ${STAGE}
+              DEBUG: ${CI_DEBUG}
+              UPLOAD_BADGE: 'true'
+              APP_USERNAME: ${APP_USERNAME}
+              APP_PASSWORD: ${APP_PASSWORD}
+
+pipelines:
+  pull-requests:
+    '**':
+      - step: *install
+      - parallel:
+          steps:
+            - step: *test
+            - step: *lint
+
+  branches:
+    production:
+      - stage:
+          name: 'Awaiting Production Deploy'
+          steps:
+            - step:
+                name: 'Awaiting Production Deploy'
+                script:
+                  - echo "Awaiting manual trigger of production deploy"
+      - stage:
+          name: 'Deploy Production'
+          deployment: Production
+          trigger: manual
+          steps:
+            - step:
+                <<: *push-serverless
+
+    staging:
+      - step:
+          <<: *push-serverless
+          name: 'Deploy Staging'
+          deployment: Staging
