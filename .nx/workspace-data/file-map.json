@@ -22,36 +22,44 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "tsconfig.base.json",
-        "hash": "15452245079928694613"
+        "file": "bitbucket-pipelines.yml",
+        "hash": "11044932425912687627"
       },
       {
-        "file": "prettier.config.js",
-        "hash": "4047309726022494290"
+        "file": "README.md",
+        "hash": "16334751650070921515"
       },
       {
         "file": "services/.gitkeep",
         "hash": "3244421341483603138"
       },
       {
-        "file": "libs/.gitkeep",
-        "hash": "3244421341483603138"
+        "file": ".gitignore",
+        "hash": "7663861978715868291"
       },
       {
-        "file": "tools/tsconfig.tools.json",
-        "hash": "113529236189617652"
-      },
-      {
-        "file": "vite.config.base.mjs",
-        "hash": "8856917544530748781"
+        "file": "tsconfig.base.json",
+        "hash": "15452245079928694613"
       },
       {
         "file": "nx.json",
         "hash": "4569938363683733732"
       },
       {
-        "file": "eslint.config.js",
-        "hash": "2803714136144737651"
+        "file": "tools/tsconfig.tools.json",
+        "hash": "113529236189617652"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "589753587222351342"
+      },
+      {
+        "file": "libs/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": ".yarn/install-state.gz",
+        "hash": "9442318730536655187"
       },
       {
         "file": "yarn.lock",
@@ -62,32 +70,24 @@
         "hash": "16845842677755717760"
       },
       {
-        "file": "bitbucket-pipelines.yml",
-        "hash": "11044932425912687627"
+        "file": "eslint.config.js",
+        "hash": "2803714136144737651"
       },
       {
-        "file": ".yarn/install-state.gz",
-        "hash": "9442318730536655187"
+        "file": "vite.config.base.mjs",
+        "hash": "8856917544530748781"
       },
       {
-        "file": ".yarnrc.yml",
-        "hash": "9773565372686775399"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "589753587222351342"
-      },
-      {
-        "file": "README.md",
-        "hash": "16334751650070921515"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "7663861978715868291"
+        "file": "prettier.config.js",
+        "hash": "4047309726022494290"
       },
       {
         "file": "package.json",
         "hash": "15702382076949391206"
+      },
+      {
+        "file": ".yarnrc.yml",
+        "hash": "9773565372686775399"
       }
     ],
     "projectFileMap": {
@@ -383,11 +383,11 @@
         },
         {
           "file": "services/stock/serverless.yml",
-          "hash": "13722858216954805877"
+          "hash": "10666068002916941927"
         },
         {
-          "file": "services/stock/src/lambda/hello.ts",
-          "hash": "11780138270750027346"
+          "file": "services/stock/src/lambda/get-product-updates.ts",
+          "hash": "7772424370528182511"
         },
         {
           "file": "services/stock/src/lambda/world.ts",
@@ -395,7 +395,11 @@
         },
         {
           "file": "services/stock/tests/__data__/example-data.ts",
-          "hash": "13888088332265100558"
+          "hash": "14151248848798927516"
+        },
+        {
+          "file": "services/stock/tests/__data__/response.xml",
+          "hash": "14152176748377818997"
         },
         {
           "file": "services/stock/tests/example-tests.test.ts",

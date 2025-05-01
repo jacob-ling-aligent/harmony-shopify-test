@@ -31,10 +31,15 @@ provider:
     lambda: true
   environment:
     NODE_OPTIONS: --enable-source-maps
+  iam:
+    Effect: Allow
+    Action:
+      - s3:*
+    Resource: 'arn:aws:s3:::${self:service}-${self:provider.stage}-bucket/*'
 
 functions:
-  hello:
-    handler: src/lambda/hello.handler
+  getProductUpdates:
+    handler: src/lambda/get-product-updates.handler
   world:
     handler: src/lambda/world.handler
 
@@ -66,4 +71,10 @@ stepFunctions:
             End: true
 
 resources:
-  Description: Service template generated using Nx
+  Description: Harmony to Shopify Test Inventory Delta Service
+  Resources:
+    Storage:
+      Type: AWS::S3::Bucket
+      Properties:
+        BucketName: ${self:service}-${self:provider.stage}-bucket
+

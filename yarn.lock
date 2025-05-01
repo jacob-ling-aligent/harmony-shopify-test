@@ -431,7 +431,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@aws-sdk/client-s3@npm:^3.588.0":
+"@aws-sdk/client-s3@npm:^3.588.0, @aws-sdk/client-s3@npm:^3.800.0":
   version: 3.800.0
   resolution: "@aws-sdk/client-s3@npm:3.800.0"
   dependencies:
@@ -2948,6 +2948,7 @@ __metadata:
   dependencies:
     "@aligent/serverless-conventions": "npm:latest"
     "@aligent/ts-code-standards": "npm:^4.0.0"
+    "@aws-sdk/client-s3": "npm:^3.800.0"
     "@nx/devkit": "npm:20.4.6"
     "@nx/esbuild": "npm:20.4.6"
     "@nx/eslint": "npm:20.4.6"
